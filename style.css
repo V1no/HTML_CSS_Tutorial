@@ -1,0 +1,47 @@
+body {background-color: rgb(23, 23, 23);}
+
+::-webkit-scrollbar {
+    background-image: url(img/sidebar/img_sidebar.jpg);
+    width: 15px;
+  }
+    ::-webkit-scrollbar-track {background-image: url(img/sidebar/img_sidebar.jpg);}
+    ::-webkit-scrollbar-thumb {background-color: grey;}
+    ::-webkit-scrollbar-thumb:hover {background: #555;}
+
+.p {font-size:50px;font-family: arial;text-align: center;color: #101010;}
+
+/* head */
+.container {display: flex;width: 100%;}
+.item {height: 150px;background-color: rgb(182, 182, 182);width:100%;}
+.item-1 {width:20%;}
+.item-2 {width:60%;}
+.item-3 {width:20%;}
+.img {width: 80px;border-radius: 8px;padding-left: 40px;padding-top: 50px;}
+
+/* menü */
+.container1 {display: flex;}
+.item1 {border: 1px solid;height: 40px; border-radius: 10px;
+        border-top-left-radius:0px;border-top-right-radius: 0px;background-color: #606060;}
+.item-4 {width:25%;}
+.item-5 {width:25%;}
+.item-6 {width:25%;}
+.item-7 {width:25%;}
+
+/* body */
+.container2 {display: flex;}
+.item2 {border: 1px solid;height: 2000px;background-color: #999;}
+.item-8  {width:3%;background-image:url(img/body/dezenz_dunkel.jpg);}
+.item-9  {width:94%;}
+.item-10 {width:3%;background-image: url(img/body/dezenz_dunkel.jpg);}
+
+/* impressum */
+.container3 {display: flex;}
+.item3 {border: 2px solid;border-color: black; height: 150px;background-color: rgb(36, 36, 36);}
+.item-11 {width:33.3%;}
+.item-12 {width:33.3%;}
+.item-13 {width:33.3%;}
+
+.menü {font-size: 15px;font-family: arial; text-align: center;color: rgb(22, 22, 22)}
+
+.überschrift {font-size: 22px;font-family: Arial, Helvetica, sans-serif;text-align: center;}
+.link1       {font-size: 16px;font-family: Arial, Helvetica, sans-serif;text-align: center;}
